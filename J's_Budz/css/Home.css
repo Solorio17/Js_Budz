@@ -4,14 +4,14 @@ body{
 }
 
 /*navbar*/
-.NavBar{
+nav{
   display: inline-block;
   height: 45px;
   width: 1573px;
   position: relative;
 }
 
-.NavBar h3{
+nav h3{
   font-family: fantasy;
   font-size: 48px;
   margin-top: 0px;
@@ -71,7 +71,7 @@ li a:hover:not(.active) {
   margin-top: 260px;
 }
 
-.footer{
+footer{
   margin-top: 0px;
   background: linear-gradient(to bottom right, #CFB53B, #146314);
   border: none;
