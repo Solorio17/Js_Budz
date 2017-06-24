@@ -1,0 +1,264 @@
+body{
+  background: black;
+  margin-top: 0px;
+  background-image: url("../images/wb.jpg");
+}
+
+ul li{
+  color: black;
+  display: inline;
+  font-size: 14px;
+}
+
+ul{
+  margin-top: 0px;
+  padding-left: 0px;
+  word-spacing: 30px;
+}
+
+.mainheading{
+  border-radius: 10px;
+  border: none;
+  height: 75px;
+  width: 1568px;
+  margin-top: 8px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+}
+
+
+.m1{
+  margin-top: 0px;
+  font-family:  fantasy;
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px #CFB53B;
+  border:none;
+  width: 500px;
+  margin-left: 525px;
+}
+
+.m1:hover{
+  font-size: 60px;
+}
+
+.slideContainer{
+  border:none;
+  width: 1350px;
+  height: 600px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.weedSlider{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.weedSlider img{
+  border-radius: 20px;
+}
+
+
+.prevbutton{
+  vertical-align: top;
+  margin-top: 240px;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border-color: goldenrod;
+  color: white;
+}
+
+.prevbutton:hover{
+  height:45px;
+  border-color: green;
+}
+
+
+.nextbutton{
+  vertical-align: top;
+  margin-top: 240px;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border-color: goldenrod;
+  color: white;
+}
+
+.nextbutton:hover{
+  height: 45px;
+    border-color: green;
+}
+
+.weedPrices{
+  border: none;
+  width: 480px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+
+
+.weedPrices h4{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.weedPrices ul{
+  color: #146314;
+  text-shadow: 1px 0px white;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 20px;
+  border: none;
+  width: 480px;
+  height: 50px;
+  background:  linear-gradient(to right, #CFB53B, #146314);
+}
+
+.weedPrices ul:hover{
+  background: linear-gradient(to right, #146314, #CFB53B);
+}
+
+.weedPrices li{
+  font-size: 22px;
+}
+
+
+
+.dabSlider{
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.dabSlider img{
+  border-radius: 20px;
+}
+
+.prevbuttons{
+  vertical-align: top;
+  margin-top: 240px;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border-color: goldenrod;
+  color: white;
+}
+
+.prevbuttons:hover{
+  height: 45px;
+    border-color: green;
+}
+
+.nextbuttons{
+  vertical-align: top;
+  margin-top: 240px;
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border-color: goldenrod;
+  color: white;
+}
+
+.nextbuttons:hover{
+  height: 45px;
+  border-color: green;
+}
+
+.dabPrices{
+  border: none;
+  width: 480px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 223px;
+  border-radius: 10px;
+}
+
+.dabPrices h4{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dabPrices ul{
+  color: #146314;
+  text-shadow: 1px 0px white;
+  text-align: center;
+  font-size: 2px;
+  border-radius: 20px;
+  border: none;
+  width: 480px;
+  height: 50px;
+  background:  linear-gradient(to left, #CFB53B,#146314);
+}
+
+.dabPrices ul:hover{
+  background: linear-gradient(to left, #146314, #CFB53B)
+}
+
+.dabPrices li{
+  font-size: 22px;
+}
+
+.adlike{
+  border:none;
+  width: 150px;
+  height: 603px;
+  display: inline-block;
+  margin-left: 9px;
+  margin-top: 13px;
+}
+
+.adpic{
+  width: 200px;
+  height: 602px;
+}
+
+
+
+.footer{
+  margin-top: 20px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border: none;
+  width: 1568px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.footer1{
+  font-size: 16px;
+  border-right: 1px solid black;
+  width: 110px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0px;
+  margin-left: 2px;
+}
+
+.footer2{
+  border-right: 1px solid black;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.footer3{
+  border: none;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+}

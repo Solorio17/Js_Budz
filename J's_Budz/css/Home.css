@@ -1,0 +1,107 @@
+body{
+  margin: 5px 5px;
+  background-color: black;
+}
+
+/*navbar*/
+.NavBar{
+  display: inline-block;
+  height: 45px;
+  width: 1573px;
+  position: relative;
+}
+
+.NavBar h3{
+  font-family: fantasy;
+  font-size: 48px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 700px;
+  color: black;
+  text-shadow: 1px 1px #CFB53B;
+
+}
+ul {
+    border-radius: 5px;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #CFB53B, #146314);
+}
+
+li {
+  font-size: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 30px;
+}
+
+li a:hover:not(.active) {
+    background: linear-gradient(to bottom right, #146314,  #CFB53B);
+}
+
+
+#slider{
+  width: 1450px;
+  height: 674px;
+  vertical-align: top;
+  border-radius: 20px;
+  margin-bottom: 5px;
+}
+
+.prevbutton{
+  vertical-align: top;
+  margin-top: 260px;
+  margin-left: 13px;
+}
+.nextbutton{
+  vertical-align: top;
+  margin-top: 260px;
+}
+
+.footer{
+  margin-top: 0px;
+  background: linear-gradient(to bottom right, #CFB53B, #146314);
+  border: none;
+  width: 1573px;
+  height: 60px;
+  border-radius: 2px;
+}
+
+.footer1{
+  font-size: 16px;
+  border-right: 1px solid black;
+  width: 110px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0px;
+  margin-left: 2px;
+}
+
+.footer2{
+  border-right: 1px solid black;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.footer3{
+  border: none;
+  width: 100px;
+  height: 20px;
+  display: inline-block;
+}
