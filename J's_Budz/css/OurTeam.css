@@ -94,6 +94,12 @@ display: inline;
   vertical-align: bottom;
   word-wrap: break-word;
 }
+
+.sub1:hover{
+  width: 210px;
+  height: 360px;
+}
+
 .sub1para{
   border: 2px solid goldenrod;
   border-radius: 10px;
