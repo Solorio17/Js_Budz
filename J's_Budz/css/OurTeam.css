@@ -94,6 +94,11 @@ display: inline;
   vertical-align: bottom;
   word-wrap: break-word;
 }
+
+.sub1:hover{
+  height: 400px;
+}
+
 .sub1para{
   border: 2px solid goldenrod;
   border-radius: 10px;
@@ -118,6 +123,11 @@ display: inline;
   display: inline-block;
   vertical-align: bottom;
 }
+
+.sub2:hover{
+  height: 470px;
+}
+
 .sub2para{
   border: 2px solid goldenrod;
   border-radius: 10px;
@@ -140,6 +150,10 @@ display: inline;
   margin-top: 10px;
 }
 
+.mainme:hover{
+  height: 550px;
+}
+
 .mainmepara{
  border: 2px solid goldenrod;
  border-radius: 10px;
@@ -156,6 +170,10 @@ display: inline;
   display: inline-block;
   margin-top: 10px;
   vertical-align: bottom;
+}
+
+.sub3:hover{
+  height: 470px;
 }
 .sub3para{
   border: 2px solid goldenrod;
@@ -179,6 +197,9 @@ display: inline;
   margin-left: 10px;
 }
 
+.sub4:hover{
+  height: 400px;
+}
 .sub4para{
   border: 2px solid goldenrod;
   border-radius: 10px;
