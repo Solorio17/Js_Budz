@@ -95,10 +95,6 @@ display: inline;
   word-wrap: break-word;
 }
 
-.sub1:hover{
-  width: 210px;
-  height: 360px;
-}
 
 .sub1para{
   border: 2px solid goldenrod;
