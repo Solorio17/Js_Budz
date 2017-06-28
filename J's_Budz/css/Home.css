@@ -48,7 +48,7 @@ li a {
     height: 30px;
 }
 
-li a:hover:not(.active) {
+li a:hover{
     background: linear-gradient(to bottom right, #146314,  #CFB53B);
 }
 
