@@ -92,11 +92,11 @@ function previs() {
 var imagesxxx = [
     "images/accessories.jpg",
     "images/acc1.JPG",
-    "images/acc2.jpg",
+    "images/acc2new.jpg",
     "images/acc3.jpg",
     "images/acc4.jpg",
     "images/acc5.jpg",
-    "images/acc6.jpg"
+    "images/acc6new.jpg"
 ];
 //Start at Zero
 var num = 0;
