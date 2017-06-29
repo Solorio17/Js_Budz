@@ -3,43 +3,54 @@ body{
   margin-top: 0px;
   background-image: url("../images/wb.jpg");
 }
-
-ul li{
-  color: black;
-  display: inline;
-  font-size: 14px;
-}
-
-ul{
-  margin-top: 0px;
-  padding-left: 0px;
-  word-spacing: 30px;
-}
-
-.mainheading{
-  border-radius: 10px;
-  border: none;
-  height: 75px;
-  width: 1568px;
-  margin-top: 8px;
-  background: linear-gradient(to bottom right, #CFB53B, #146314);
+.mainheading {
+    border: none;
+    background: linear-gradient(to bottom right, #CFB53B, #146314);
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 5px;
 }
 
 
-.m1{
-  margin-top: 0px;
-  font-family:  fantasy;
-  font-size: 48px;
-  text-align: center;
-  color: black;
-  text-shadow: 1px 1px #CFB53B;
-  border:none;
-  width: 500px;
-  margin-left: 525px;
+.nabl {
+    border-radius: 5px;
+    font-family: sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #CFB53B, #146314);
 }
 
-.m1:hover{
-  font-size: 60px;
+ .nab{
+    font-size: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+
+
+    .nab a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 35px;
+    }
+
+        .nab a:hover {
+            background: linear-gradient(to bottom right, #146314, #CFB53B);
+        }
+
+.m1 {
+    font-family: fantasy;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 680px;
+    color: black;
+    text-shadow: 1px 1px #CFB53B;
 }
 
 .slideContainer{
@@ -51,9 +62,18 @@ ul{
   padding-top: 10px;
 }
 
+.prevbutton {
+    background: linear-gradient(to bottom right, #146314, #CFB53B);
+}
+
+.nextbutton {
+    background: linear-gradient(to bottom right, #146314, #CFB53B);
+}
+
+
 .weedSlider{
   display: inline-block;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .weedSlider img{
@@ -61,38 +81,7 @@ ul{
 }
 
 
-.prevbutton{
-  vertical-align: top;
-  margin-top: 240px;
-  width: 60px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom right, #CFB53B, #146314);
-  border-color: goldenrod;
-  color: white;
-}
 
-.prevbutton:hover{
-  height:45px;
-  border-color: green;
-}
-
-
-.nextbutton{
-  vertical-align: top;
-  margin-top: 240px;
-  width: 60px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom right, #CFB53B, #146314);
-  border-color: goldenrod;
-  color: white;
-}
-
-.nextbutton:hover{
-  height: 45px;
-    border-color: green;
-}
 
 .weedPrices{
   border: none;
@@ -103,6 +92,17 @@ ul{
   border-radius: 10px;
 }
 
+.weedPrices ul li {
+    color: black;
+    display: inline;
+    font-size: 22px;
+}
+
+.weedPrices ul {
+    margin-top: 0px;
+    padding-left: 0px;
+    word-spacing: 20px;
+}
 
 .weedPrices h4{
   color: white;
@@ -136,44 +136,14 @@ ul{
 
 .dabSlider{
   display: inline-block;
-  margin-left: 80px;
+  margin-right: 10px;
 }
 
 .dabSlider img{
   border-radius: 20px;
 }
 
-.prevbuttons{
-  vertical-align: top;
-  margin-top: 240px;
-  width: 60px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom right, #CFB53B, #146314);
-  border-color: goldenrod;
-  color: white;
-}
 
-.prevbuttons:hover{
-  height: 45px;
-    border-color: green;
-}
-
-.nextbuttons{
-  vertical-align: top;
-  margin-top: 240px;
-  width: 60px;
-  height: 40px;
-  border-radius: 10px;
-  background: linear-gradient(to bottom right, #CFB53B, #146314);
-  border-color: goldenrod;
-  color: white;
-}
-
-.nextbuttons:hover{
-  height: 45px;
-  border-color: green;
-}
 
 .dabPrices{
   border: none;
@@ -182,6 +152,17 @@ ul{
   display: inline-block;
   margin-left: 223px;
   border-radius: 10px;
+}
+.dabPrices ul li {
+    color: black;
+    display: inline;
+    font-size: 22px;
+}
+
+.dabPrices ul {
+    margin-top: 0px;
+    padding-left: 0px;
+    word-spacing: 20px;
 }
 
 .dabPrices h4{
@@ -212,19 +193,18 @@ ul{
   font-size: 22px;
 }
 
-.adlike{
-  border:none;
-  width: 150px;
-  height: 603px;
-  display: inline-block;
-  margin-left: 9px;
-  margin-top: 13px;
+.ediblesSlider {
+display: inline-block;
+margin-right: 10px;
 }
 
-.adpic{
-  width: 200px;
-  height: 602px;
+.accessoriesSlider {
+    display: inline-block;
+    margin-right: 10px;
 }
+
+
+
 
 
 
