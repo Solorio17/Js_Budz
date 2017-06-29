@@ -6,10 +6,23 @@ body{
 .mainheading {
     border: none;
     background: linear-gradient(to bottom right, #CFB53B, #146314);
-    height: 60px;
-    border-radius: 10px;
+    height: 63px;
+    border-radius: 5px;
     margin-top: 5px;
 }
+
+.navheader{
+ border: none;
+ display: inline-block;
+}
+
+.header{
+    display: inline-block;
+        border:none;
+        margin-top:0px;
+        vertical-align: top;
+}
+
 
 .nabl {
     border-radius: 5px;
@@ -18,13 +31,11 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(to bottom right, #CFB53B, #146314);
 }
 
 .nab {
     font-size: 15px;
     float: left;
-    border-radius: 10px;
 }
 
 
@@ -36,37 +47,76 @@ body{
         padding: 14px 16px;
         text-decoration: none;
         height: 35px;
+        border-radius: 0px;
     }
 
         .nab a:hover {
             background: linear-gradient(to bottom right, #146314, #CFB53B);
         }
 
-.m1 {
+.header .m1{
     font-family: fantasy;
     font-size: 48px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 680px;
+    margin-left: 540px;
     color: black;
     text-shadow: 1px 1px #CFB53B;
 }
 
-p {
-    font-size: 28px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 80px;
-    word-spacing: 5px;
+.m1:hover{
+    font-size: 50px;
 }
 
+
 img {
-border-radius: 10px;
+border-radius: 45%;
 }
+
+
+
+.prevbutton {
+    vertical-align: top;
+    margin-top: 220px;
+    width: 43px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #CFB53B, #146314);
+    border-color: goldenrod;
+    color: white;
+}
+.prevbutton:hover {
+    background-color: green;
+    color: White;
+    border-color: green;
+}
+
+.nextbutton {
+    vertical-align: top;
+    margin-top: 220px;
+    width: 43px;
+    height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #CFB53B, #146314);
+    border-color: goldenrod;
+    color: white;
+}
+
+ .nextbutton:hover {
+        background-color: green;
+        color: White;
+        border-color: green;
+    }
+
+
+
+
+
 
 .weedSliderC {
 border: none;
 height: 500px;
-margin-bottom: 100px;
+margin-bottom: 180px;
 margin-top: 50px;
 }
 
@@ -87,12 +137,18 @@ margin-top: 50px;
     color: white;
 }
 
+.wsub2 p{
+    margin-top: 140px;
+    font-size: 30px;
+    word-spacing: 5px;
+    text-shadow: 2px 1px green;
+}
 
 
 .dabSliderC {
     border: none;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 .dsub1 {
@@ -104,6 +160,13 @@ margin-top: 50px;
     vertical-align: top;
     color: white;
 }
+
+    .dsub1 p {
+        margin-top: 120px;
+        font-size: 30px;
+        word-spacing: 10px;
+        text-shadow: 2px 1px green;
+    }
 
 .dsub2 {
     border: none;
@@ -119,7 +182,7 @@ margin-top: 50px;
 .ediblesSliderC {
     border: none;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 .esub1 {
     border: none;
@@ -138,14 +201,19 @@ margin-top: 50px;
     color: white;
 }
 
-
+    .esub2 p {
+        margin-top: 200px;
+        font-size: 30px;
+        word-spacing: 5px;
+        text-shadow: 2px 1px green;
+    }
 
 
 
 .accessoriesSliderC {
     border: none;
     height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .asub1 {
@@ -157,6 +225,13 @@ margin-top: 50px;
     vertical-align: top;
     color: white;
 }
+
+    .asub1 p {
+        margin-top: 180px;
+        font-size: 30px;
+        word-spacing: 5px;
+        text-shadow: 2px 1px green;
+    }
 
 .asub2 {
     border: none;
